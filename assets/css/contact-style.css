@@ -134,22 +134,22 @@ body {
 }
 
 #contact .button {
-  background: #146c94;
+  background: #0081b4;
   color: #fff;
   font-size: 1.1em;
   font-weight: normal;
   padding: 5px 20px;
-  border-bottom: 2px solid #faafff;
+  border-bottom: 2px solid #fde6fe;
   display: inline-block;
 }
 
 #contact .button:hover {
-  background: #19a7ce;
+  background: #006a94;
 }
 
 #contact span.info a {
   color: #fff;
-  background: #146c94;
+  background: #0081b4;
   padding: 5px 10px;
 }
 

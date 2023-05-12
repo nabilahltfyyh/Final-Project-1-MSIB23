@@ -78,6 +78,10 @@ body {
   margin: 20px;
 }
 
+#blog .post-preview .post-meta {
+  padding: 0 10px 15px 0;
+}
+
 #blog .post-title {
   font-family: "Montserrat", sans-serif;
   font-size: 31px;
@@ -99,6 +103,7 @@ body {
 
 #blog .mainya {
   display: flex;
+  justify-content: space-between;
 }
 #blog .project-sidebar {
   width: 25.5%;
@@ -279,5 +284,30 @@ body {
 
 #blog img.d-block {
   height: 500px;
+}
+
+#blog .costum-link {
+  text-decoration: none;
+  color: #000;
+}
+
+#blog .costum-link:hover {
+  color: #0081b4;
+}
+
+#blog .this-costum-link {
+  color: #000;
+}
+#blog .this-costum-link:hover {
+  color: #0081b4;
+}
+
+#blog .custom-button {
+  background-color: #0081b4;
+  color: #fff;
+}
+
+#blog .custom-button:hover {
+  background-color: #006a94;
 }
 /*End Project*/
