@@ -1,0 +1,283 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,300&display=swap"); */
+
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background: #f7f5eb;
+  /* font-family: "Montserrat", sans-serif; */
+}
+
+.banner {
+  background: #a0c3d2;
+  min-height: 150px;
+  padding: 10px;
+  position: relative;
+}
+
+.wrap {
+  width: 250px;
+  height: 60px;
+  background: #eac7c7;
+  color: #0081b4;
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  margin-left: 70px;
+}
+
+.wrap h2 {
+  margin-left: 20px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-weight: 1000;
+}
+
+.main {
+  padding: 50px 0 30px;
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/* Blog */
+
+#blog .container {
+  width: 67.3%;
+  margin: 0;
+
+  /* position: relative; */
+}
+
+#blog .mainya {
+  position: relative;
+}
+
+#blog .container,
+#blog .project-sidebar {
+  position: relative;
+}
+
+#blog .post-preview img {
+  width: 500px;
+  height: 350px;
+}
+
+#blog .row {
+  margin: 0 15px;
+  padding: 20px;
+  display: block;
+}
+
+#blog .post-preview {
+  background-color: #eac7c7;
+  width: 500px;
+  margin: 20px;
+}
+
+#blog .post-title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 31px;
+  padding: 10px;
+}
+
+#blog .post-subtitle {
+  font-family: "Montserrat", sans-serif;
+  padding: 10px;
+}
+
+#blog p {
+  color: black;
+}
+#blog .clearfix {
+  margin: 0 415px;
+}
+/* End Blog */
+
+#blog .mainya {
+  display: flex;
+}
+#blog .project-sidebar {
+  width: 25.5%;
+  float: left;
+}
+
+#blog .project-list {
+  background: #0081b4;
+  padding: 30px;
+  margin: 20px 0;
+}
+
+#blog .project-list li,
+#blog .project-list1 li {
+  margin-bottom: 20px;
+}
+
+#blog .project-list li img {
+  float: left;
+  margin-right: 20px;
+  width: 30px;
+  height: 30px;
+}
+
+#blog .project-list1 li img {
+  width: 110px;
+  height: 70px;
+}
+
+#blog .project-list li p {
+  margin-bottom: -5px;
+}
+
+#blog .project-list li a {
+  text-decoration: none;
+}
+
+#blog .project-list li p a {
+  color: #fff;
+  font-size: 13px;
+  text-transform: uppercase;
+}
+
+#blog .project-list li p a:hover {
+  color: #a0c3d2;
+}
+
+#blog .project-list h4,
+#blog .project-list1 h4,
+#blog .project-list2 h4 {
+  font-size: 1.4em;
+  color: #fff;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+}
+
+#blog ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#blog .project-list1 li a {
+  text-decoration: none;
+}
+
+#blog .project-list1 li p a {
+  padding: 0;
+  color: #fff;
+  font-size: 0.8125em;
+  text-transform: uppercase;
+}
+
+#blog .project-list1 li p a:hover {
+  color: #a0c3d2;
+}
+
+#blog .project-list1 {
+  background: #0081b4;
+  padding: 30px;
+  margin-bottom: 30px;
+}
+
+#blog span.likes {
+  margin-top: -20px;
+  float: right;
+  font-size: 0.8125em;
+  color: #fff;
+  padding-top: 18px;
+}
+
+#blog span.likes img {
+  float: none;
+  margin-right: 0;
+  vertical-align: middle;
+  width: 15px;
+  height: 15px;
+}
+
+#blog span.link a {
+  color: #fff;
+  margin-right: 10px;
+}
+
+#blog span a:hover {
+  text-decoration: underline;
+}
+
+#blog .project-list2 {
+  background: #0081b4;
+  padding: 30px;
+}
+
+#blog .project-list2 li {
+  float: left;
+  background: #eac7c7;
+  padding: 5px;
+  margin: 2px;
+}
+
+#blog .project-list2 li a {
+  text-decoration: none;
+}
+
+#blog .project-list2 li a {
+  color: #000;
+  text-transform: uppercase;
+  font-size: 0.89em;
+}
+
+#blog .project-list2 li a:hover {
+  color: #a0c3d2;
+}
+
+#blog .proj-desc {
+  border-bottom: 1px solid #dbdbdb;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+}
+
+#blog .proj-desc h4 {
+  background: #eac7c7;
+  color: #0081b4;
+  float: left;
+  font-size: 1.4em;
+  padding: 5px 10px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+#blog .proj-desc p {
+  line-height: 1.8em;
+  font-size: 0.91em;
+  color: #424147;
+}
+
+#blog .clear {
+  clear: both;
+}
+
+#blog .related-desc h4 {
+  background: #eac7c7;
+  color: #0081b4;
+  float: left;
+  font-size: 1.4em;
+  padding: 5px 10px;
+  margin-bottom: 30px;
+}
+
+#blog .gallery img {
+  float: left;
+  width: 31.9%;
+  padding-right: 5px;
+  display: block;
+  width: 300px;
+  height: 200px;
+}
+
+#blog img.d-block {
+  height: 500px;
+}
+/*End Project*/

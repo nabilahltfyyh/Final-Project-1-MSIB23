@@ -1,0 +1,160 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  background: #f7f5eb;
+}
+
+.banner {
+  background: #a0c3d2;
+  min-height: 150px;
+  padding: 10px;
+  position: relative;
+  /* margin-top: 100px; */
+}
+
+.wrap {
+  width: 250px;
+  height: 60px;
+  background: #eac7c7;
+  color: #0081b4;
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  margin-left: 70px;
+}
+
+.wrap h2 {
+  margin-left: 20px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-weight: 1000;
+}
+
+.main {
+  padding: 50px 0 30px;
+}
+
+/*Todos*/
+#todos .head-title {
+  font-size: 1.5rem;
+}
+
+#todos .head-title,
+#todos .form-todos {
+  min-height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#todos .form-todos input,
+#todos .form-todos button {
+  padding: 0.5rem;
+  font-size: 2rem;
+  border: none;
+  background: white;
+}
+
+#todos .form-todos button {
+  color: #a0c3d2;
+  background: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+#todos .form-todos button:hover {
+  background: #a0c3d2;
+  color: white;
+}
+
+#todos .container-todos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#todos .daftar-kegiatan {
+  min-width: 30%;
+  list-style: none;
+}
+
+#todos .kegiatan {
+  margin: 0.5rem;
+  background: white;
+  color: black;
+  font-size: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: all 1s ease;
+}
+
+#todos .kegiatan li {
+  flex: 1;
+}
+
+#todos .trash-btn,
+#todos .complete-btn {
+  background: #eac7c7;
+  color: white;
+  border: none;
+  padding: 1rem;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+#todos .complete-btn {
+  background: #a0c3d2;
+}
+
+#todos .fa-trash,
+#todos .fa-check {
+  pointer-events: none;
+}
+
+#todos .selesai {
+  text-decoration: line-through;
+  opacity: 0.5;
+}
+
+#todos .filter {
+  margin: 1rem;
+  position: relative;
+  overflow: hidden;
+}
+
+#todos select {
+  color: #d33d83;
+  width: 10rem;
+  cursor: pointer;
+  padding: 1rem;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  outline: none;
+  border: none;
+}
+
+#todos .filter::after {
+  content: "\25BC";
+  position: absolute;
+  background: #eac7c7;
+  top: 0;
+  right: 0;
+  padding: 1rem;
+  pointer-events: none;
+  transition: all 0.3s ease;
+}
+
+#todos .filter:hover::after {
+  background: white;
+  color: #eac7c7;
+}
+/*End Todos*/
+
+/* Penyesuaian header-footer untuk todos */
+header {
+  margin-bottom: 12px;
+}
+footer {
+  margin-top: 15rem;
+}

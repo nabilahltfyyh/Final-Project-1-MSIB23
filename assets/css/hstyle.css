@@ -1,0 +1,44 @@
+/* * {
+  font-family: "Montserrat", sans-serif;
+} */
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.navbar {
+  border-bottom: 0.5px solid #00303e;
+  padding: 15px;
+  background-color: #007093;
+}
+
+.navbar #menu ul li {
+  font-size: 20px;
+}
+
+.navbar #menu ul li a:hover {
+  background-color: rgb(165, 106, 106);
+}
+
+.navbar .brand-name {
+  display: flex;
+  flex-direction: row;
+  font-size: 2.5em;
+  padding: 15px;
+  text-transform: capitalize;
+}
+
+.navbar .brand-name .logo {
+  height: 50px;
+  width: auto;
+  margin-right: 10px;
+}
+.navbar .brand-name .firstname {
+  color: white;
+  font-weight: 900 !important;
+}
+.navbar .brand-name .lastname {
+  color: #ac7862;
+  font-weight: 550 !important;
+  padding-left: 1px;
+}
