@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Portofolio</title>
+	<!-- Bootstrap -->
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+	<!-- End Bootstrap -->
+
+	<!-- Font -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
+	<!-- End Font -->
+
+	<link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+	
+	<link rel="stylesheet" type="text/css" href="../assets/css/style.css">
+  <link rel="stylesheet" href="../assets/css/style-home.css" />
+</head>
+<body>
+	<!-- Navbar -->
+	<nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="brand-name">
+        <div class="firstname">code</div>
+        <div class="lastname">forge.</div>
+      </div>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#menu"
+        aria-controls="menu"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="menu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="../index.html">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">PORTFOLIO</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="../blog/index.html">BLOG</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="../about/index.html">ABOUT US</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="../contact/index.html">CONTACT</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="../todos/index.html">TODOS</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+	<!-- End Navbar -->
+
+	<!-- Banner -->
+	<div class="banner">
+		<div class="wrap">
+			<h2>Portofolio</h2>
+		</div>
+	</div>
+	<!-- End Banner -->
+
+	<!-- Main -->
+	<div class="main">
+		<div class="portfolio_title">
+			<h3>We Creative Quality Designs.</h3>
+			<h5>We Specialize in Web Design / Development and Graphic Design</h5>	
+		</div>	
+	</div>
+
+	<div class="container">
+		<div id="myBtnContainer">
+		  <button class="btn active" onclick="filterSelection('all')"> Show All</button>
+		  <button class="btn" onclick="filterSelection('website')"> Website</button>
+		  <button class="btn" onclick="filterSelection('logo')"> Logo</button>
+		  <button class="btn" onclick="filterSelection('ui')"> UI Kit</button>
+		  <button class="btn" onclick="filterSelection('photo')"> Photo</button>
+		  <button class="btn" onclick="filterSelection('app')"> App  Design</button>
+		</div>
+		<div>
+			<!-- Card -->
+			<section id="card">
+				<div class="row">
+					<div class="col-md-4 mb-4 column photo">
+						<div class="card">
+						<a href="../project/index.html">
+						  <img src="../assets/img/picture-9.jpg" class="card-img-top" alt="...">
+						</a>
+						  <div class="card-body">
+						  	<h4 class="card-title">Project Kami</h4><p class="img"><img src="../assets/img/like.png" width="15" height="15" title="likes" alt=""/>&nbsp;&nbsp;12</p>
+						    <a href="#"><span>December 14, 2022</span></a>
+						  </div>
+						</div>
+					</div>
+					<div class="col-md-4 mb-4 column ui">
+						<div class="card">
+						<a href="../project/index.html">
+						  <img src="../assets/img/picture-2.jpg" class="card-img-top" alt="...">
+						</a>
+						  <div class="card-body">
+						  	<h4 class="card-title">Project Kami</h4><p class="img"><img src="../assets/img/like.png" width="15" height="15" title="likes" alt=""/>&nbsp;&nbsp;15</p>
+						    <a href="#"><span>February 14, 2022</span></a>
+						  </div>
+						</div>
+					</div>
+					<div class="col-md-4 mb-4 column photo">
+						<div class="card">
+						<a href="../project/index.html">
+						  <img src="../assets/img/picture-3.jpg" class="card-img-top" alt="...">
+						</a>
+						  <div class="card-body">
+						  	<h4 class="card-title">Project Kami</h4><p class="img"><img src="../assets/img/like.png" width="15" height="15" title="likes" alt=""/>&nbsp;&nbsp;20</p>
+						    <a href="#"><span>March 12, 2022</span></a>
+						  </div>
+						</div>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-md-4 mb-4 column website">
+						<div class="card">
+						<a href="../project/index.html">
+						  <img src="../assets/img/picture-4.jpg" class="card-img-top" alt="...">
+						</a>
+						  <div class="card-body">
+						  	<h4 class="card-title">Project Kami</h4><p class="img"><img src="../assets/img/like.png" width="15" height="15" title="likes" alt=""/>&nbsp;&nbsp;12</p>
+						    <a href="#"><span>April 24, 2022</span></a>
+						  </div>
+						</div>
+					</div>
+					<div class="col-md-4 mb-4 column website">
+						<div class="card">
+						<a href="../project/index.html">
+						  <img src="../assets/img/picture-5.jpg" class="card-img-top" alt="...">
+						</a>
+						  <div class="card-body">
+						  	<h4 class="card-title">Project Kami</h4><p class="img"><img src="../assets/img/like.png" width="15" height="15" title="likes" alt=""/>&nbsp;&nbsp;12</p>
+						    <a href="#"><span>June 19, 2022</span></a>
+						  </div>
+						</div>
+					</div>
+					<div class="col-md-4 mb-4 column website">
+						<div class="card">
+						<a href="../project/index.html">
+						  <img src="../assets/img/picture-6.jpg" class="card-img-top" alt="...">
+						</a>
+						  <div class="card-body">
+						  	<h4 class="card-title">Project Kami</h4><p class="img"><img src="../assets/img/like.png" width="15" height="15" title="likes" alt=""/>&nbsp;&nbsp;12</p>
+						    <a href="#"><span>July 18, 2022</span></a>
+						  </div>
+						</div>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-md-4 mb-4 column logo">
+						<div class="card">
+						<a href="../project/index.html">
+						  <img src="../assets/img/picture-7.jpg" class="card-img-top" alt="...">
+						</a>
+						  <div class="card-body">
+						  	<h4 class="card-title">Project Kami</h4><p class="img"><img src="../assets/img/like.png" width="15" height="15" title="likes" alt=""/>&nbsp;&nbsp;12</p>
+						    <a href="#"><span>October 27, 2022</span></a>
+						  </div>
+						</div>
+					</div>
+					<div class="col-md-4 mb-4 column app">
+						<div class="card">
+						<a href="../project/index.html">
+						  <img src="../assets/img/picture-8.jpg" class="card-img-top" alt="...">
+						</a>
+						  <div class="card-body">
+						  	<h4 class="card-title">Project Kami</h4><p class="img"><img src="../assets/img/like.png" width="15" height="15" title="likes" alt=""/>&nbsp;&nbsp;12</p>
+						    <a href="#"><span>November 02, 2022</span></a>
+						  </div>
+						</div>
+					</div>
+					<div class="col-md-4 mb-4 column app">
+						<div class="card">
+						<a href="../project/index.html">
+						  <img src="../assets/img/picture-1.jpg" class="card-img-top" alt="...">
+						</a>
+						  <div class="card-body">
+						    <h4 class="card-title">Project Kami</h4><p class="img"><img src="../assets/img/like.png" width="15" height="15" title="likes" alt=""/>&nbsp;&nbsp;12</p>
+						    <a href="#"><span>January 23, 2022</span></a>
+						  </div>
+						</div>
+					</div>
+					
+				</div>
+			</section>
+			<!-- End Card -->
+		</div>
+	</div>
+	<!-- End Main -->
+
+	<!-- Footer -->
+	<div class="footer mt-5">
+      <div class="fText">
+        <div class="about">
+          <h5>About Us</h5>
+          <p>
+            Website ini dibuat oleh Grup 4 WDP09 MSIB Batch 4 Hacktive untuk memenuhi tugas Final
+            Project 1 program Studi Independen Kampus Merdeka 2023. Anggota kami terdiri dari 4
+            orang, yaitu:
+            <li>Zacky Yaser Malik Gumiwang</li>
+            <li>Nabilah Luthfiyyah</li>
+            <li>Faridah Hanifah</li>
+            <li>Vivi Aryska</li>
+          </p>
+        </div>
+
+        <div class="latest-tweets">
+          <h5>Latest Tweets</h5>
+          <div class="tweet">
+            <div class="icon">
+              <i class="fa-brands fa-twitter"></i>
+            </div>
+            <div class="text">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis massa lorem.
+                Nullam euismod nibh quam, nec ultrices odio rutrum nec.
+              </p>
+            </div>
+          </div>
+          <div class="tweet">
+            <div class="icon">
+              <i class="fa-brands fa-twitter"></i>
+            </div>
+            <div class="text">
+              <p>Lorem ipsum consectetuer adipiscing elit, seddia</p>
+            </div>
+          </div>
+          <div class="tweet">
+            <div class="icon">
+              <i class="fa-brands fa-twitter"></i>
+            </div>
+            <div class="text">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis massa lorem.
+                Nullam euismod nibh quam, nec ultrices odio rutrum nec.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="cInfo">
+          <h5>Contact Info</h5>
+          <div class="cInfo-content">
+            <div class="icon">
+              <i class="fa-solid fa-location-dot"></i>
+            </div>
+            <div class="text">
+              <p>MSIB Batch 4 Hacktive Web Developer - WDP09</p>
+            </div>
+          </div>
+          <div class="cInfo-content">
+            <div class="icon">
+              <i class="fa-brands fa-whatsapp"></i>
+            </div>
+            <div class="text">
+              <p>081*****</p>
+            </div>
+          </div>
+          <div class="cInfo-content">
+            <div class="icon">
+              <i class="fa-solid fa-envelope"></i>
+            </div>
+            <div class="text">
+              <p>codeforge@hacktive.com</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br />
+
+      <div class="social">
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+      </div>
+
+      <br />
+
+      <div class="menu">
+        <ul>
+          <li>
+            <a href="../index.html">HOME</a>
+          </li>
+          <li>
+            <a href="index.html">PORTFOLIO</a>
+          </li>
+          <li>
+            <a href="../blog/index.html">BLOG</a>
+          </li>
+          <li>
+            <a href="../about/index.html">ABOUT US</a>
+          </li>
+          <li>
+            <a href="../contact/index.html">CONTACT</a>
+          </li>
+        </ul>
+      </div>
+      <br />
+
+      <div class="copyright">
+        <p style="color: white">Copyright @2023HACKTIVE; Designed by GRUP 4 WDP09</p>
+      </div>
+    </div>
+	<!-- End Footer -->
+
+	<script>
+		filterSelection("all")
+		function filterSelection(c) {
+		  var x, i;
+		  x = document.getElementsByClassName("column");
+		  if (c == "all") c = "";
+		  for (i = 0; i < x.length; i++) {
+		    RemoveClass(x[i], "show");
+		    if (x[i].className.indexOf(c) > -1) AddClass(x[i], "show");
+		  }
+		}
+
+		function AddClass(element, name) {
+		  var i, arr1, arr2;
+		  arr1 = element.className.split(" ");
+		  arr2 = name.split(" ");
+		  for (i = 0; i < arr2.length; i++) {
+		    if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+		  }
+		}
+
+		function RemoveClass(element, name) {
+		  var i, arr1, arr2;
+		  arr1 = element.className.split(" ");
+		  arr2 = name.split(" ");
+		  for (i = 0; i < arr2.length; i++) {
+		    while (arr1.indexOf(arr2[i]) > -1) {
+		      arr1.splice(arr1.indexOf(arr2[i]), 1);     
+		    }
+		  }
+		  element.className = arr1.join(" ");
+		}
+
+
+		// Add active class to the current button (highlight it)
+		var btnContainer = document.getElementById("myBtnContainer");
+		var btns = btnContainer.getElementsByClassName("btn");
+		for (var i = 0; i < btns.length; i++) {
+		  btns[i].addEventListener("click", function(){
+		    var current = document.getElementsByClassName("active");
+		    current[0].className = current[0].className.replace(" active", "");
+		    this.className += " active";
+		  });
+		}
+	</script>
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>
